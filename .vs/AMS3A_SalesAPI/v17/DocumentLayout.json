@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\srcTeste\\AMS3A_SalesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\migrations\\applicationdatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:migrations\\applicationdatacontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\migrations\\20240428192639_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:migrations\\20240428192639_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:domain\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|c:\\srcteste\\ams3a_salesapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ACF177B-18D7-4626-B9E0-9376D6D88AA1}|AMS3A_SalesAPI.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDataContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Migrations\\ApplicationDataContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\ApplicationDataContextModelSnapshot.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Migrations\\ApplicationDataContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\ApplicationDataContextModelSnapshot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:26:01.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240428192639_Initial.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Migrations\\20240428192639_Initial.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240428192639_Initial.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Migrations\\20240428192639_Initial.cs",
+              "RelativeToolTip": "Migrations\\20240428192639_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:25:58.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Domain\\Product.cs",
+              "RelativeDocumentMoniker": "Domain\\Product.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Domain\\Product.cs",
+              "RelativeToolTip": "Domain\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:25:51.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Domain\\Category.cs",
+              "RelativeDocumentMoniker": "Domain\\Category.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Domain\\Category.cs",
+              "RelativeToolTip": "Domain\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:25:44.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:25:36.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:25:16.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\srcTeste\\AMS3A_SalesAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T21:21:32.787Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
