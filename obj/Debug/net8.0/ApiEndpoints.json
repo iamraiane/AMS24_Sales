@@ -28,8 +28,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "category",
-        "Type": "AMS3A_SalesAPI.Domain.Category",
+        "Name": "categoryRequest",
+        "Type": "AMS3A_SalesAPI.Domain.Request.CategoryRequest",
         "IsRequired": true
       }
     ],
@@ -90,8 +90,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "product",
-        "Type": "AMS3A_SalesAPI.Domain.Product",
+        "Name": "productRequest",
+        "Type": "AMS3A_SalesAPI.Domain.Request.ProductRequest",
         "IsRequired": true
       }
     ],

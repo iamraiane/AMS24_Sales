@@ -2,6 +2,9 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using AMS3A_SalesAPI.Domain;
+using AMS3A_SalesAPI.Domain.Request;
+using AMS3A_SalesAPI.Domain.DTO;
+using Microsoft.EntityFrameworkCore;
 
 namespace AMS3A_SalesAPI.Controllers
 {
@@ -16,9 +19,29 @@ namespace AMS3A_SalesAPI.Controllers
             _context = context;
         }
         [HttpGet]
-        public ActionResult<IEnumerable<Category>> Get()
+        public async Task<ActionResult<IEnumerable<CategoryDTO>>> GetAll()
         {
-            return _context.Category.ToList();
+            
+            var categories = await _context.Category.ToListAsync();
+            if (categories == null)
+                return NotFound();
+
+            var response = new List<CategoryDTO>();
+            foreach (var category in categories)
+            {
+                response.Add(new CategoryDTO
+                {
+
+                    Id = category.Id,
+                    Description = category.Description,
+                    ImageURL = category.ImageURL
+                });
+                
+
+            }
+            return Ok(response);
+            
+
         }
 
         [HttpGet]
@@ -32,8 +55,13 @@ namespace AMS3A_SalesAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(Category category)
+        public ActionResult Post(CategoryRequest categoryRequest)
         {
+            var category = new Category(){
+                Description = categoryRequest.Description,
+                IsActive = true,
+                ImageURL = categoryRequest.ImageURL
+            };
             _context.Category.Add(category);
             _context.SaveChanges();
 

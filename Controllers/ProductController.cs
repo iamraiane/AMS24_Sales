@@ -1,8 +1,10 @@
 ﻿using AMS3A_SalesAPI.Context;
 using AMS3A_SalesAPI.Domain;
+using AMS3A_SalesAPI.Domain.Request;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
 namespace AMS3A_SalesAPI.Controllers
@@ -33,17 +35,18 @@ namespace AMS3A_SalesAPI.Controllers
         }
 
         [HttpPost]
-        public ActionResult Post(Product product)
+        public ActionResult Post(ProductRequest productRequest)
         {
-            try
-            {
-                _context.Product.Add(product);
-                _context.SaveChanges();
-                return Ok();
-            }
-            catch (Exception) {
-                return BadRequest();
-            }
+            var product = new Product(){
+                Description = productRequest.Description,
+                Stock = productRequest.Stock,
+                Price = productRequest.Price,
+                ImageURL = productRequest.ImageURL,
+                CategoryId = productRequest.CategoryId,
+            };
+            _context.Product.Add(product);
+            _context.SaveChanges();
+            return Ok();
 
         }
        
